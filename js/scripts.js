@@ -60,7 +60,7 @@ function Pizza(size, toppings, crust, total, orderNo) {
 
   $(".additional-info h5").hide();
   $(".additional-info .location").show();
-});
+
 
 $(".btn.complete").click(function() {
   var location = $(".additional-info .location input").val();
